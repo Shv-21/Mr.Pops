@@ -101,7 +101,7 @@ const Div = styled.div`
 
     li{
       list-style: none;
-      font-family: myFirstFont;
+      font-family: cervo;
       color: white;
       font-size: 5vmax;
     }
