@@ -20,6 +20,7 @@ function App() {
 }
 
 const Div = styled.div`
+overflow: hidden;
     font-family: font_HelveticaNeueCyr;
     @font-face {
         font-family: font_HelveticaNeueCyr;
