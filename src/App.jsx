@@ -5,14 +5,19 @@ import font_HelveticaNeueCyr_italic from './components/assets/HelveticaNeueCyr-I
 import font_cervo from './components/assets/Cervo.woff2';
 import font_cervo_Medium from './components/assets/Cervo-Medium_1.woff2';
 import Marquee from "./components/Marquee";
+import LocomotiveScroll from "locomotive-scroll";
+import AboutUs from "./components/AboutUs";
 
 function App() {
+ 
+  const scroll = new LocomotiveScroll()
 
   return (
 
    <Div>
       <Head/>
       <Marquee/>
+      <AboutUs/>
    </Div>
 
   )
